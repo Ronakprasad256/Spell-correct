@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Spell-correct-Frontend/static/css/main.073c9b0a.css",
+    "main.js": "/Spell-correct-Frontend/static/js/main.fbc6e0fe.js",
+    "static/js/787.93ee3b66.chunk.js": "/Spell-correct-Frontend/static/js/787.93ee3b66.chunk.js",
+    "index.html": "/Spell-correct-Frontend/index.html",
+    "main.073c9b0a.css.map": "/Spell-correct-Frontend/static/css/main.073c9b0a.css.map",
+    "main.fbc6e0fe.js.map": "/Spell-correct-Frontend/static/js/main.fbc6e0fe.js.map",
+    "787.93ee3b66.chunk.js.map": "/Spell-correct-Frontend/static/js/787.93ee3b66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.fbc6e0fe.js"
+  ]
+}
