@@ -16,7 +16,7 @@ function App() {
       document.body.style.backgroundColor = "#2f6b6c";
       document.body.style.color = "white";
       showAlert("Enabled Dark Mode", 'success');
-      document.title = "Spell-Correct - Dark mode";
+      // document.title = "Spell-Correct - Dark mode";
       // setInterval(() => {
       //   document.title="Spell-correct is amazing";
       // }, 2000);
@@ -29,7 +29,7 @@ function App() {
       document.body.style.backgroundColor = "white";
       document.body.style.color = "black";
       showAlert("Light Mode Enables", 'success');
-      document.title = "Spell-Correct - Light mode"
+      // document.title = "Spell-Correct - Light mode"
 
     }
   }
@@ -47,7 +47,7 @@ function App() {
     
   return (
     <>
-        <Navbar title="SPELL-CORRECT" mode={mode} darkMode="Dark Mode" toggleMode={toggleMode} />
+        <Navbar title="Text-UTILS" mode={mode} darkMode="Dark Mode" toggleMode={toggleMode} />
       <Alert alert={alert} />
       {/* <div className="container my-3">
         <TextForm showAlert={showAlert} heading="Enter The Text To Analyze Below" mode={mode}/>
@@ -55,9 +55,9 @@ function App() {
       </div> */}
       <Routes>
           <Route path="/" exact element={<TextForm showAlert={showAlert} heading="Enter The Text To Analyze Below" mode={mode}/>} />
-          <Route path="/about" exact element={<About />} />
+          <Route path="/about" exact element={<About mode={mode}/>} />
         </Routes>
-      <Footer/>
+       <Footer/>
     </>
   )
 };
